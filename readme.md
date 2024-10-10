@@ -1,6 +1,6 @@
 # HCloud API JS Wrapper
-![npm](https://img.shields.io/npm/v/hcloud-api) ![yarn](https://img.shields.io/yarn/v/hcloud-api) ![pnpm](https://img.shields.io/pnpm/v/hcloud-api)
-Auto generated wrapper for the Hetzner Cloud API. Most of this code was generated using [hey-api](https://github.com/hey-api/openapi-ts).
+![npm](https://img.shields.io/npm/v/hcloud-api)
+
 **This package is unofficial.** 
 OpenAPI spec used is the unoficial types by Maximilian Köstler.
  * https://github.com/MaximilianKoestler/hcloud-openapi
