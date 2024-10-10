@@ -1,3 +1,3 @@
-export * from './schemas.gen';
-export * from './services.gen';
-export * from './types.gen';
+export * from './schemas.gen.js';
+export * from './services.gen.js';
+export * from './types.gen.js';

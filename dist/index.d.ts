@@ -1,4 +1,4 @@
-import * as clientGenerated from './client';
+import * as clientGenerated from './client/index.js';
 /**
  * Create a instance of the client.
  * @param apiKey API Key
@@ -6100,4 +6100,4 @@ export declare function HCloudClient(apiKey: string, baseURL?: string): {
     listVolumeActions: <ThrowOnError extends boolean = false>(options?: import("@hey-api/client-fetch").Options<clientGenerated.ListVolumeActionsData, ThrowOnError>) => import("@hey-api/client-fetch").RequestResult<clientGenerated.list_actions_response, unknown, ThrowOnError>;
     getVolumeAction: <ThrowOnError extends boolean = false>(options: import("@hey-api/client-fetch").Options<clientGenerated.GetVolumeActionData, ThrowOnError>) => import("@hey-api/client-fetch").RequestResult<clientGenerated.get_action_response, unknown, ThrowOnError>;
 };
-export * from './client';
+export * from './client/index.js';

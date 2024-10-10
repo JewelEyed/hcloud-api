@@ -5,7 +5,7 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "fix-esm-import-path . && tsc",
     "test": "bun test"
   },
   "repository": {
@@ -21,7 +21,8 @@
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "@hey-api/client-fetch": "^0.4.0"
+    "@hey-api/client-fetch": "^0.4.0",
+    "fix-esm-import-path": "^1.10.1"
   },
   "files": [
     "dist/**/*"

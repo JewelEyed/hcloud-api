@@ -3,8 +3,8 @@
  * OpenAPI spec is provided by the unoficial types by Maximilian Köstler.
  * https://github.com/MaximilianKoestler/hcloud-openapi
  */
-import { client } from './client/services.gen';
-import * as clientGenerated from './client';
+import { client } from './client/services.gen.js';
+import * as clientGenerated from './client/index.js';
 /**
  * Create a instance of the client.
  * @param apiKey API Key
@@ -20,4 +20,4 @@ export function HCloudClient(apiKey, baseURL = "https://api.hetzner.cloud/v1") {
     });
     return { ...clientGenerated };
 }
-export * from './client';
+export * from './client/index.js';

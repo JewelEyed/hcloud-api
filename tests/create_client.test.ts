@@ -1,4 +1,4 @@
-import { HCloudClient, listServers } from "../dist";
+import { HCloudClient, listServers } from "../dist/index.js";
 import { config } from "dotenv";
 import { expect, test } from "bun:test";
 test("Client creation", async () => {1
